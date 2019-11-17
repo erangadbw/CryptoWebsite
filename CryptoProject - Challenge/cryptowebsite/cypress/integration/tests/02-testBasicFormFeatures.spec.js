@@ -12,7 +12,7 @@ describe('Test BasicDisplayStatsFeatures', ()=> {
     })
 
     cy.visit('http://localhost:3000')
-    cy.get('[data-cy-currecy-select]').should('exist').select('BTC')
+    cy.get('[data-cy-currecy-select]').should('exist').select('Bitcoin')
     cy.get('[data-cy-date-select]').should('exist').type('2019-10-15')
     cy.get('[data-cy-submit-button]').should('exist').submit()
 
