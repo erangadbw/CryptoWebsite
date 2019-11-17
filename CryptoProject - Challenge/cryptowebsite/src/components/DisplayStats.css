@@ -1,0 +1,37 @@
+.table-wrapper {
+  width: 1000px;
+  display: flex;
+  flex-direction: column;
+  padding: 20px 40px;
+  border-radius: 10px;
+  box-shadow: 0px 10px 50px #555;
+  background-color: #ffffff;
+}
+
+.wrapper {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  padding: 35px;
+  justify-content: center;
+  align-items: center;
+
+}
+
+.thead-class {
+  width:100%;
+}
+
+.profit,
+.time,
+.price,
+.cryptoPair,
+.marketDirection,
+.dateStamp {
+  text-align:center;
+}
+
+.profit,
+.cryptoPair{
+  background-color: #ececff;
+}
