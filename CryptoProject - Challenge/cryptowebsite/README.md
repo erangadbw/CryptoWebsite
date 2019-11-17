@@ -2,11 +2,11 @@
 
 ## Overview
 
-Please access the website using the following link. Please use Chrome for the best expierence! :)
+Access the website using the link below. Please use Chrome for the best expierence! :)
 
 http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
-### `yarn start`
+## Backend Architecture
 
 Runs the app in the development mode.<br />
 Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
