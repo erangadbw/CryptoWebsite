@@ -8,11 +8,11 @@ http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
 ## Backend Architecture
 
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+The backend was created using a combination of the AWS Api gateway and lambda Services. To Create a REST api service which returns
+24 hours worth of price data from a actual exchange. 
 
-The page will reload if you make edits.<br />
-You will also see any lint errors in the console.
+### API Design 
+
 
 ### `yarn test`
 
