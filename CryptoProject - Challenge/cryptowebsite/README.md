@@ -2,7 +2,7 @@
 
 ## Overview
 
-Please access the website using the following link . 
+Please access the website using the following link. Please use Chrome for the best expierence! :)
 
 http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
