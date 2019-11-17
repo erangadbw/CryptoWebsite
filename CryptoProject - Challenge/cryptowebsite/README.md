@@ -2,7 +2,9 @@
 
 ## Overview
 
-In the project directory, you can run:
+Please access the website using the following link . 
+
+http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
 ### `yarn start`
 
