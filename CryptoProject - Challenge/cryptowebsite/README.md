@@ -9,12 +9,12 @@ http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 ## Backend Architecture
 
 The backend was created using a combination of the AWS Api gateway and lambda Services to Create a REST api service which uses
-24 hours worth of price data from a actual exchange. 
+price data from a actual exchange. The Website itself is hosted on a s3 bucket. 
 
 ### API Design 
 
 The API was created with one endpoint https://f1qrz44wh9.execute-api.ap-southeast-2.amazonaws.com/api/crypto which has one POST method.
-This post method invokes a lambda function which sends a get request that hits the btcmarkets API to gather real exchange data to calculate the maximum profit for the day.
+This post method invokes a lambda function -this sends a get request which hits the btcmarkets API to gather real exchange data to calculate the maximum profit for the day.
 
 Below is an example of the BTC market endpoint 
 
@@ -31,6 +31,22 @@ limit=4&sortForward=true&since=1537671600000"},"ticks":
 {"timestamp":1537678800000,"open":909187000000,"high":909600000000,"low":909187000000,"close":909596000000,"volume":215936611},
 {"timestamp":1537682400000,"open":909596000000,"high":909616000000,"low":907175000000,"close":907175000000,"volume":388776816}]}
 ```
+The lambda function will then use the open price at each hourly interval over the entire day to calculate the maximum profit which can be calculated and return the results back to the react app in the below format. 
+
+```
+        {
+          "currency": "BTC",
+          "date": "2019-10-12",
+          "calcData": {
+            "minValue": 12237.65,
+            "minTimeStamp": "11:00:00 AM",
+            "highValue": 12346.82,
+            "highTimeStamp": "9:00:00 PM",
+            "profit": 109.17
+         }
+
+```
+
 
 
 
