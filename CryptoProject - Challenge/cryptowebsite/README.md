@@ -14,7 +14,7 @@ The backend was created using a combination of the AWS Api gateway and lambda Se
 ### API Design 
 
 The API was created with one endpoint https://f1qrz44wh9.execute-api.ap-southeast-2.amazonaws.com/api/crypto which has one POST method.
-This post method sends a get requests which hits the btc markets API to gather real exchange data to calculate the maximum profit for the day.
+This post method invokes a lambda function which sends a get request that hits the btcmarkets API to gather real exchange data to calculate the maximum profit for the day.
 
 Below is an example of the BTC market endpoint 
 
