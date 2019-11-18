@@ -9,8 +9,11 @@ http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
 ## Backend Architecture
 
-The backend was created using a combination of the AWS Api gateway and lambda Services to Create a REST api service which uses
-price data from a actual exchange. The Website itself is hosted on a s3 bucket. 
+The backend was created using a combination of the AWS Api gateway and lambda Services to Create a REST Api service. 
+
+The API further requests data from an actual exchange to do the computation. 
+
+The Website itself is hosted on a s3 bucket. 
 
 ### API Design 
 
