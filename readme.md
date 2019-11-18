@@ -6,6 +6,7 @@ Access the website using the link below. Please use Chrome for the best expieren
 
 http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
+
 ## Backend Architecture
 
 The backend was created using a combination of the AWS Api gateway and lambda Services to Create a REST api service which uses
