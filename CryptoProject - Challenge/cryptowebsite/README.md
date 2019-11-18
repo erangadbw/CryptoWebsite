@@ -55,7 +55,19 @@ Below is and example of what the output reponse from the api looks like for a su
 
 All component and intergration tests where done via cypress 
 
-please find all of the test cases by looking in the `CryptoWebsite/CryptoProject - Challenge/cryptowebsite/cypress/integration/tests/` folder 
+Please find all of the test cases by looking in the 
+`CryptoWebsite/CryptoProject - Challenge/cryptowebsite/cypress/integration/tests/` folder 
+
+###Back End
+
+Testing of the lambda functions functionality was done using Jest. 
+
+Please find all of the tests cases by looking in the 
+
+`CryptoWebsite/CryptoProject - Challenge/lambdaFunctions/lambdaAPITests/` Folder.
+
+example test cases are provided in the data.json file and in the spec file. 
+
 
 
 
