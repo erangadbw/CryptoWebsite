@@ -53,9 +53,9 @@ Below is and example of what the output reponse from the api looks like for a su
 
 ```
 
-##Lambda Files
+## Lambda Files
 
-All the code place into the lambda function can be found in the below folder 
+All of the code placed into the lambda function can be found in the below folder 
 `CryptoWebsite/CryptoProject - Challenge/lambdaFunctions/retrievePriceData/` in the retreivePriceData.js file
 
 ## Testing
