@@ -7,6 +7,7 @@ Access the website using the link below. Please use Chrome for the best expieren
 http://cryptowebsite.erangadbw.com.s3-website-ap-southeast-2.amazonaws.com/?
 
 
+
 ## Backend Architecture
 
 The backend was created using a combination of the AWS Api gateway and lambda Services to Create a REST Api service. 
@@ -14,6 +15,7 @@ The backend was created using a combination of the AWS Api gateway and lambda Se
 The API further requests data from an actual exchange to do the computation. 
 
 The Website itself is hosted on a s3 bucket. 
+
 
 ### API Design 
 
@@ -53,10 +55,14 @@ Below is and example of what the output reponse from the api looks like for a su
 
 ```
 
+
+
 ## Lambda Files
 
 All of the code placed into the lambda function can be found in the below folder 
 `CryptoWebsite/CryptoProject - Challenge/lambdaFunctions/retrievePriceData/` in the retreivePriceData.js file
+
+
 
 ## Testing
 
